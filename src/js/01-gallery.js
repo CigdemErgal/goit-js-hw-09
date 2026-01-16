@@ -1,6 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-
+import '../css/01-gallery.css';
 const images = [
   {
     preview:
@@ -75,7 +75,8 @@ const galleryMarkup = images
 <a class="gallery-link" href="${image.original}">
 <img class ="gallery-image"
 src="${image.preview}"
-alt="${image.description}" />
+alt="${image.description}"
+ />
 </a>
 </li>
 `
